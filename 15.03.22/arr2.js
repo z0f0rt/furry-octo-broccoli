@@ -16,7 +16,7 @@ let arr = [-2, 5, -6, 11, 228, -256];
 //   console.log(arr[i]);
 // }
 
-function nugop(arr, kek) {
+function cugop(arr, kek) {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
     if (kek(arr[i]) == true) {
@@ -33,5 +33,5 @@ let kek = (f) => {
   return f > 10;
 };
 
-let newArray = nugop(arr, kek);
+let newArray = cugop(arr, kek);
 console.log(newArray);
