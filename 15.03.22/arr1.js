@@ -1,4 +1,5 @@
 "use strict";
+// Меняем старый массив по любым способом и выводим новый (изменённый)
 let arr = [3, 4, 6, -10, 335, 69, -228, 18];
 let x = 1;
 let y;
@@ -8,11 +9,3 @@ for (let i = 0; i < arr.length; i++) {
   newArr.push(y);
 }
 console.log(newArr);
-
-// const n = 10;
-// if (n == 10) {
-//   console.log("Ты готов!");
-// }
-// for (let i = 0; i <= n; i++) {
-//   console.log(i);
-// }

@@ -1,14 +1,14 @@
 "use strict";
-// let m = 0;
+let m = 0;
 let arr = [-2, 5, -6, 11, 228, -256];
-// let newArr = [];
-// for (let i = 0; i < arr.length; i++) {
-//   let x = arr[i];
-//   if (x > m) {
-//     newArr.push(x);
-//   }
-// }
-// console.log(newArr);
+let newArr = [];
+for (let i = 0; i < arr.length; i++) {
+  let x = arr[i];
+  if (x > m) {
+    newArr.push(x);
+  }
+}
+console.log(newArr);
 
 // Дан массив с числами. Выведите элементы этого массива в обратном порядке.
 // let arr = [1, 2, 3, 4, 5];
