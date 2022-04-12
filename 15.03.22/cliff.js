@@ -6,3 +6,4 @@ for (let i = 0; i < arr.length; i += MAX) {
   triple = triple.reduce((acc, v) => acc + v + " ", "");
   console.log(triple);
 }
+
